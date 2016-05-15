@@ -1,20 +1,25 @@
 var React = require('react');
 var ReactDOM = require('react-dom');
 
+var {Route, Router, IndexRoute, hashHistory} = require('react-router');
+var Main = require('Main');
+var Weather = require('Weather');
+var About = require('About');
+var Examples = require('Examples');
 
-var objOne = {
-    name : 'Andrew',
-    location : 'philadelphia'
-};
 
-var objTwo = {
-    age : 25,
-    ...objOne // package.json에 babel-preset-stage-0 추가해야됨 그리고 webpack.config.js파일에도 추가해야됨stage-0
-};
 
-console.log(objTwo)
+
+
+
 
 ReactDOM.render(
-    <h1>boilerplate app</h1>,
+    <Router history={hashHistory}>
+        <Route path="/" component={Main}>
+            <Route path="about" component={About}/>
+            <Route path="examples" component={Examples}/>
+            <IndexRoute component={Weather}/>
+        </Route>
+    </Router>,
     document.getElementById('app')
 );

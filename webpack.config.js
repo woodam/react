@@ -7,7 +7,13 @@ module.exports = {
 	resolve : {
 		root : __dirname,
 		alias : { //이렇게 cmd파일 불러 올수도 있을것같다. require.js path에 등록하는거랑 비슷한것같음
-
+			Main : 'app/components/Main.jsx',
+			Nav : 'app/components/Nav.jsx',
+			Weather : 'app/components/Weather.jsx',
+			WeatherForm : 'app/components/WeatherForm.jsx',
+			WeatherMessage : 'app/components/WeatherMessage.jsx',
+			About : 'app/components/About.jsx',
+			Examples : 'app/components/Examples.jsx'
 		},
 		extensions : ['', '.js', '.jsx']
 	},
