@@ -2,12 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2f91f1f5-c8d3-4359-b083-b7bb55810841" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/components/About.jsx" afterPath="$PROJECT_DIR$/app/components/About.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/components/Examples.jsx" afterPath="$PROJECT_DIR$/app/components/Examples.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/components/Main.jsx" afterPath="$PROJECT_DIR$/app/components/Main.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/components/Nav.jsx" afterPath="$PROJECT_DIR$/app/components/Nav.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/components/WeatherMessage.jsx" afterPath="$PROJECT_DIR$/app/components/WeatherMessage.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/bundle.js" afterPath="$PROJECT_DIR$/public/bundle.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="react-redux-study.iws" />
@@ -566,7 +560,7 @@
       <workItem from="1463199647763" duration="19985000" />
       <workItem from="1463360068413" duration="2253000" />
       <workItem from="1463362547954" duration="8417000" />
-      <workItem from="1463407906218" duration="4152000" />
+      <workItem from="1463407906218" duration="4188000" />
     </task>
     <task id="LOCAL-00001" summary="hello react">
       <created>1463240867644</created>
@@ -604,11 +598,17 @@
       <option name="project" value="LOCAL" />
       <updated>1463410923286</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="arrow function 으로 변경&#10;">
+      <created>1463413928517</created>
+      <option name="number" value="00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1463413928517</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37162000" />
+    <option name="totallyTimeSpent" value="37198000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -668,7 +668,8 @@
     <MESSAGE value="webpack 설정1" />
     <MESSAGE value="routing" />
     <MESSAGE value="ajax처리후 중간에 로딩바 처리도 할수있을듯" />
-    <option name="LAST_COMMIT_MESSAGE" value="ajax처리후 중간에 로딩바 처리도 할수있을듯" />
+    <MESSAGE value="arrow function 으로 변경&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="arrow function 으로 변경&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -700,7 +701,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -753,7 +754,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -790,7 +791,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -844,7 +845,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
